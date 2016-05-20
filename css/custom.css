@@ -1,0 +1,377 @@
+/** Hoja personalizada **/
+
+@keyframes cajamain{
+	0%{	
+		
+
+
+	}
+
+	100%{
+
+		
+		 
+		 opacity: 0;
+		 z-index: 0;
+
+	}
+}
+
+@keyframes galefx{
+	0%{ opacity: 0.31; 
+
+
+	}
+
+	40%{ 
+		opacity: 1.1
+
+	}
+	70%{ 
+		opacity: .9;
+
+
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes btn{
+	0%{  
+
+
+	}
+
+	100%{ 
+		background-color: orange; 
+		color: white;
+
+	}
+}
+
+
+
+/**el h3 quedará exclusivamente para uso de cada thumbnail 
+de propiedades en la barra derecha**/
+
+h3,.h3 {
+	color: white;
+}
+h2, .h2 {
+	color: black;
+	font-family: 'Oswald', sans-serif;
+ 	 text-shadow: 1px 1px 2px #333;
+  	text-indent: -1px;
+  	text-align: left;
+  
+
+  	font-weight: 700;
+  	line-height: 1.1;
+}
+h4,.h4 {
+	color: black;
+	text-align: center;
+	text-shadow:none;
+	font-family: 'Oswald', sans-serif;
+  
+  	text-indent: -1px;
+ 	 text-align: center;
+  
+
+  font-weight: 700;
+  line-height: 1.1;
+}
+.mainbanner {
+	margin-top: -20px;
+}
+
+.imglogo {
+	transform: scale(0.9,0.9);
+	margin-top: -15px;
+}
+
+.uno1 {
+
+}
+.uno2 {
+
+}
+.img-galeria {
+	background-size: 100%;
+	background-position: center;
+}
+
+.norespeto {
+	position: absolute;
+	z-index: 2;
+
+
+
+}
+.sombra {
+	width: 100%;
+	height: 340px;
+	position: absolute;
+	background-image: url(../imgs/shadow.png);
+	background-size: 100% 100%;
+	background-position: center;
+	z-index: 3;
+
+}
+
+
+.cajaprincipal {
+	height: 340px;
+
+
+}
+.cajaprincipal:hover .sombra {
+	animation-name: cajamain;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+	}
+
+
+
+.gl1 {
+	background-image: url(../imgs/house/casa1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 170px;
+	opacity: .4;
+	
+}
+
+.gl2 {
+	background-image: url(../imgs/house/casa2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: .4;
+	height: 170px;
+	
+}
+
+.gl3 {
+	background-image: url(../imgs/house/casa3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: .4;
+	height: 170px;
+}
+
+.gl4 {
+	background-image: url(../imgs/house/casa4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: .4;
+	height: 170px;
+}
+
+.gl5 {
+	background-image: url(../imgs/house/casa5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: .4;
+	height: 170px;
+}
+
+.gl6 {
+	background-image: url(../imgs/house/dep6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: .4;
+	height: 170px;
+}
+
+.damemas {
+
+
+	background-color: rgba(210, 210, 210, 0.5);
+	border-bottom: 2px solid orange;
+	position: relative;
+	height: 40px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+	padding-top: 7px;
+	cursor: pointer;
+
+}
+.damemas:hover {
+
+	animation-name: btn;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+}
+
+.damemas a{
+	color: black;
+
+}
+
+.blancofondo {
+	background-color: white;
+	margin-top: -0px;
+	border-bottom: 2px solid orange;
+}
+
+.motival {
+	
+	width: 100%;
+	height: 305px;
+	background-image: url(../imgs/relajofinanciero.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	position: relative;
+	border-bottom: 2px solid orange;
+	
+	
+	
+
+
+}
+
+.frase {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 160px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+   
+
+	
+
+}
+
+.frase h3{
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+
+.team {
+	padding: 30px;
+	margin: 20px;
+	border-bottom: 2px solid orange;
+}
+
+.team p {
+	margin-top: -15px;
+	text-align: justify;
+	word-spacing: -1px;
+	margin-right: 20px;
+	margin-right: 20px;
+
+}
+.mtop {
+	margin-top: 45px;
+}
+
+.mtop img{
+	margin-right: 7px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.footbox{
+	padding: 15px;
+}
+
+.redes {
+
+}
+.redes:hover {
+	animation-name: btn;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+}
+.barbuscar {
+	border: 1px solid orange;
+	border-radius: 3px;
+	margin-left: 30px;
+	float: right;
+}
+
+.btnbuscar {
+	width: 100%;
+	height: 35px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+.footbox p{
+	font-size: 12px;
+	font-family: monospace;
+	margin-top: 20px;
+}
+
+
+
+.gl1:hover{
+	animation-name: galefx;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+
+}
+
+.gl2:hover{
+	animation-name: galefx;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+
+}
+
+.gl3:hover{
+	animation-name: galefx;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+
+}
+
+.gl4:hover{
+	animation-name: galefx;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+
+}
+
+.gl5:hover{
+	animation-name: galefx;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+
+}
+
+.gl6:hover{
+	animation-name: galefx;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+	animation-timing-function: ease-out;
+
+}
