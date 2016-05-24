@@ -242,6 +242,7 @@ th {
   }
   .navbar {
     display: none;
+
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -4522,6 +4523,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #ffffff;
   border-color: #e7e7e7;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  z-index: 5;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6410,7 +6416,7 @@ button.close {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  z-index: 15;
+  z-index: 4;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
