@@ -230,7 +230,7 @@ th {
   img {
     max-width: 100% !important;
   }
-  p,
+
   h2,
   h3 {
     orphans: 3;
@@ -1102,7 +1102,7 @@ textarea {
 a {
   color: #337ab7;
   text-decoration: none;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 a:hover,
@@ -1191,11 +1191,11 @@ h6,
 
 .h5,
 .h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open sans', helvetica;
   text-shadow: 1px 1px 2px #333;
   text-indent: -1px;
   text-align: left;
-  
+
 
   font-weight: 700;
   line-height: 1.1;
@@ -1226,7 +1226,7 @@ h6 .small,
 .h5 .small,
 .h6 .small {
   font-weight: 100;
-  
+
   color: rgba(200, 200, 200, 0.9);
 }
 h1,
@@ -1299,8 +1299,8 @@ h5,
 }
 h6,
 .h6 {
- 
-  font-size: 22px;  
+
+  font-size: 22px;
   font-family: 'Oswald', sans-serif;
   color: white;
   font-weight: lighter;
@@ -4302,7 +4302,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
- 
+
   margin-top:10px;
   margin-left:-10px;
   font-size: 18px;
@@ -4322,16 +4322,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-toggle {
-  
+
   float: right;
   padding: 10px 10px;
   margin-top: 12px;
   margin-right: 25px;
-  margin-bottom: 12px;
+  margin-bottom: 17px;
   background-color: transparent;
   background-image: none;
   border: 2px solid transparent;
-  
+
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -4530,7 +4530,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   width: 100%;
   height: auto;
   margin-top: 0px;
- 
+
   z-index: 5;
 }
 .navbar-default .navbar-brand {
@@ -6280,7 +6280,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
-  
+
 }
 .carousel-inner > .item {
   position: relative;

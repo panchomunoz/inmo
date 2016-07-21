@@ -1,33 +1,33 @@
 /** Hoja personalizada **/
 
 @keyframes cajamain{
-	0%{	
-		
+	0%{
+
 
 
 	}
 
 	100%{
 
-		
-		 
-		 opacity: 0;
-		 z-index: 0;
+
+
+		 opacity: 0.5;
+		 z-index: 2;
 
 	}
 }
 
 @keyframes galefx{
-	0%{ opacity: 0.31; 
+	0%{ opacity: 0.31;
 
 
 	}
 
-	40%{ 
+	40%{
 		opacity: 1.1
 
 	}
-	70%{ 
+	70%{
 		opacity: .9;
 
 
@@ -38,13 +38,13 @@
 }
 
 @keyframes btn{
-	0%{  
+	0%{
 
 
 	}
 
-	100%{ 
-		background-color: orange; 
+	100%{
+		background-color: orange;
 		color: white;
 
 	}
@@ -56,21 +56,32 @@
 }
 
 
-/**el h3 quedará exclusivamente para uso de cada thumbnail 
-de propiedades en la barra derecha**/
+/**el h3 quedará exclusivamente para uso de cada thumbnail
+de propiedades en la bafarra derecha**/
 
 h3,.h3 {
 	color: white;
+	font-family: 'Open sans', sans-serif;
+ 	 text-shadow: 1px 1px 2px #333;
+	 font-size: 20pt;
+
+  	text-align: left;
+		padding-left: 10px;
+		text-rendering: optimizeLegibility;
+
+  	font-weight: 500;
+  	line-height: 1.1;
 }
 h2, .h2 {
-	color: black;
-	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-family: 'Open sans', sans-serif;
  	 text-shadow: 1px 1px 2px #333;
-  	text-indent: -1px;
-  	text-align: left;
-  
+	 font-size: 32pt;
 
-  	font-weight: 700;
+  	text-align: center;
+		text-rendering: optimizeLegibility;
+
+  	font-weight: 500;
   	line-height: 1.1;
 }
 h4,.h4 {
@@ -78,10 +89,10 @@ h4,.h4 {
 
 	text-shadow:none;
 	font-family: 'Oswald', sans-serif;
-  
+
   	text-indent: -1px;
  	 text-align: center;
-  
+
 
   font-weight: 700;
   line-height: 1.1;
@@ -103,6 +114,11 @@ h4,.h4 {
 	float: left;
 	margin-left: -20px;
 }
+.modelo {
+	width: 90%;
+	height: 490px;
+}
+
 
 .uno1 {
 
@@ -124,7 +140,7 @@ h4,.h4 {
 }
 .sombra {
 	width: 100%;
-	height: 340px;
+	height: 490px;
 	position: absolute;
 	background-image: url(../imgs/shadow.png);
 	background-size: 100% 100%;
@@ -132,10 +148,60 @@ h4,.h4 {
 	z-index: 3;
 
 }
+.backfoto {
+	background-image: url(../imgs/howitswork.jpg);
+background-size: 100%;
+	background-repeat: no-repeat;
+	position: center;
+	height: 500px;
+}
+.backfoto p{
+margin-left: 25px;
+
+}
+
+.propertycontact {
+background-image: url(../imgs/works2.png);
+background-repeat: no-repeat;
+background-color: white;
+background-size: 100% ;
+padding-top: 30px;
+height: 350px;
+background-position: center;
+
+}
+.propertycontact p {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	font-weight: lighter;
+
+	 text-shadow: 1px 1px 2px #333;
+	 font-size: 12pt;
+
+}
+
+.fondoA{
+	background-image: url(../imgs/fotoA.jpg);
+background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+.fondoB{
+	background-image: url(../imgs/fotoB.jpg);
+background-size: 120%;
+	background-repeat: no-repeat;
+	position: center;
+	height: 100%;
+}
 
 
 .cajaprincipal {
-	height: 340px;
+	height: 490px;
+	background-color: #ff6a00;
 
 
 }
@@ -152,51 +218,57 @@ h4,.h4 {
 .gl1 {
 	background-image: url(../imgs/house/casa1.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 170px;
+	height: 245px;
 	opacity: .4;
-	
+
 }
 
 .gl2 {
 	background-image: url(../imgs/house/casa2.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: .4;
-	height: 170px;
-	
+	height: 245px;
+
 }
 
 .gl3 {
 	background-image: url(../imgs/house/casa3.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: .4;
-	height: 170px;
+	height: 245px;
 }
 
 .gl4 {
 	background-image: url(../imgs/house/casa4.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: .4;
-	height: 170px;
+	height: 245px;
 }
 
 .gl5 {
 	background-image: url(../imgs/house/casa5.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: .4;
-	height: 170px;
+	height: 245px;
 }
 
 .gl6 {
 	background-image: url(../imgs/house/dep6.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: .4;
-	height: 170px;
+	height: 245px;
 }
 
 .damemas {
@@ -209,7 +281,7 @@ h4,.h4 {
 	text-align: center;
 	font-size: 17px;
 	font-weight: 700;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	padding-top: 7px;
 	cursor: pointer;
 
@@ -235,7 +307,7 @@ h4,.h4 {
 }
 
 .motival {
-	
+
 	width: 100%;
 	height: 305px;
 	background-image: url(../imgs/relajofinanciero.jpg);
@@ -244,9 +316,9 @@ h4,.h4 {
 	background-repeat: repeat-y;
 	position: relative;
 	border-bottom: 2px solid orange;
-	
-	
-	
+
+
+
 
 
 }
@@ -262,9 +334,9 @@ h4,.h4 {
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
 
-   
 
-	
+
+
 
 }
 
@@ -317,28 +389,40 @@ h4,.h4 {
 	animation-timing-function: ease-out;
 }
 .barbuscar {
-	border: 1px solid orange;
 	border-radius: 3px;
-	margin-left: 30px;
-	float: right;
+	    border: none;
+	    font-weight: 300;
+	    box-shadow: none;
+	    padding: 0.6875rem 1.0625rem;
+	    height: 3.5rem;
+	    width: 100%;
+	    margin: 0;
+			margin-left: auto;
+			margin-right: auto;
 }
 
 .btnbuscar {
 	width: 100%;
 	height: 35px;
 	border-radius: 3px;
-	margin-top: 10px;
+	margin-top: 0px;
+}
+
+.margenin{
+padding: 15px;
+margin-top: auto;
+margin-bottom: auto;
 }
 .footbox p{
 	font-size: 12px;
-	font-family: monospace;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 20px;
-	background-color: #ff6a00;
+ 
 }
 
 
 .footermaster {
-	background-color: #ff6a00;
+	background-color: #292728;
 	padding-top: 30px;
 	margin-top: -20px;
 
@@ -376,7 +460,7 @@ h4,.h4 {
 	margin-bottom: 50px;
 }
 .textoresena p {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	text-align: center;
 	color: white;
@@ -389,7 +473,7 @@ h4,.h4 {
 .texticon {
 	text-align: center;
 	color: black;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	word-spacing: 3px;
 }
@@ -449,8 +533,8 @@ h4,.h4 {
 }
 
 @media screen and (max-width: 420px) {
-	
-	
+
+
 	.cajaprincipal {
 		height: 188px;
 
@@ -479,10 +563,10 @@ h4,.h4 {
 }
 
 @media screen and (max-width: 760px) {
-	
-	
+
+
 	.textoresena p {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	text-align: center;
 	color: white;
@@ -493,14 +577,14 @@ h4,.h4 {
 	line-height: 15px;
 
 		}
-	
+
 }
 
 
 
 
 @media screen and (max-width: 435px) {
-	
+
 	.textoresena {
 
 	max-width: 100%;
@@ -512,9 +596,9 @@ h4,.h4 {
 	background-size: 100%;
 
 	}
-	
+
 	.textoresena p{
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	text-align: center;
 	color: white;
@@ -523,7 +607,7 @@ h4,.h4 {
 	margin-top: 20px;
 	padding-top: 90px;
 	line-height: 12px;
-	
+
 
 		}
 
@@ -535,4 +619,3 @@ h4,.h4 {
 	margin-left: -20px;
 }
 }
-
