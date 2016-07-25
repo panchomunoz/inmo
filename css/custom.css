@@ -18,22 +18,17 @@
 }
 
 @keyframes galefx{
-	0%{ opacity: 0.31;
+	0%{ opacity: 0
 
 
 	}
 
-	40%{
-		opacity: 1.1
-
-	}
-	70%{
-		opacity: .9;
 
 
-	}
+
 	100%{
 		opacity: 1;
+
 	}
 }
 
@@ -73,7 +68,7 @@ h3,.h3 {
   	line-height: 1.1;
 }
 h2, .h2 {
-	color: white;
+	color: #111111;
 	font-family: 'Open sans', sans-serif;
  	 text-shadow: 1px 1px 2px #333;
 	 font-size: 32pt;
@@ -102,6 +97,13 @@ h4,.h4 {
 
 }
 
+.hrlindo {
+	border: 0;
+	height: 1px;
+	background: #333;
+
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 
 .mainbanner {
 	margin-top: 12px;
@@ -122,9 +124,10 @@ h4,.h4 {
 
 .uno1 {
 
+
 }
 .uno2 {
-
+padding-left: 5px;
 }
 .img-galeria {
 	background-size: 100%;
@@ -149,15 +152,19 @@ h4,.h4 {
 
 }
 .backfoto {
-	background-image: url(../imgs/howitswork.jpg);
-background-size: 100%;
+	background-image: url(../imgs/4puzzle.jpg);
+background-size: 60%;
 	background-repeat: no-repeat;
-	position: center;
+	background-position: bottom right;
+margin-bottom: 30px;
 	height: 500px;
 }
 .backfoto p{
 margin-left: 25px;
 
+}
+.backfoto h3 {
+	font-size: 20px;
 }
 
 .propertycontact {
@@ -197,14 +204,25 @@ background-size: 120%;
 	position: center;
 	height: 100%;
 }
-
-
+.fondoC{
+	background-image: url(../imgs/fotoC.jpg);
+background-size: 120%;
+	background-repeat: no-repeat;
+	position: center;
+	height: 100%;
+}
+.botonslide {
+	width:100px;
+	z-index:10;
+	margin-top: 390px;
+	margin-left: 440px;
+	position:static
+}
 .cajaprincipal {
 	height: 490px;
 	background-color: #ff6a00;
-
-
 }
+
 .cajaprincipal:hover .sombra {
 	animation-name: cajamain;
 	animation-duration: 0.5s;
@@ -221,7 +239,9 @@ background-size: 120%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 245px;
-	opacity: .4;
+	border-right: 5px solid ;
+	border-color: white;
+	opacity: 1;
 
 }
 
@@ -230,7 +250,7 @@ background-size: 120%;
 	background-position: center;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	opacity: .4;
+
 	height: 245px;
 
 }
@@ -240,8 +260,11 @@ background-size: 120%;
 	background-position: center;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	opacity: .4;
-	height: 245px;
+	opacity: 1;
+	margin-top: 5px;
+	height: 240px;
+	border-right: 5px solid ;
+	border-color: white;
 }
 
 .gl4 {
@@ -249,8 +272,8 @@ background-size: 120%;
 	background-position: center;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	opacity: .4;
-	height: 245px;
+		margin-top: 5px;
+	height: 240px;
 }
 
 .gl5 {
@@ -286,6 +309,26 @@ background-size: 120%;
 	cursor: pointer;
 
 }
+
+.parametros {
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+
+	top:200px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 12pt;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+
+}
+
+
+
 .damemas:hover {
 
 	animation-name: btn;
@@ -294,7 +337,19 @@ background-size: 120%;
 	animation-fill-mode:forwards;
 	animation-timing-function: ease-out;
 }
+.nomolestar {
+	text-decoration: none;
+}
+.nomolestar a{
 
+	color: white;
+}
+.nomolestar li{
+
+	text-align: center;
+	list-style-type: none;
+	margin-left: -40px;
+}
 .damemas a{
 	color: black;
 
@@ -309,13 +364,13 @@ background-size: 120%;
 .motival {
 
 	width: 100%;
-	height: 305px;
-	background-image: url(../imgs/relajofinanciero.jpg);
-	background-size: 100%;
-	background-position: center;
-	background-repeat: repeat-y;
+	height: 355px;
+	background-image: url(../imgs/peonreina.jpg);
+	background-size: 120%;
+	background-position:  bottom;
+	background-repeat: no-repeat;
 	position: relative;
-	border-bottom: 2px solid orange;
+
 
 
 
@@ -324,7 +379,7 @@ background-size: 120%;
 }
 
 .frase {
-	position: absolute;
+		position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -333,7 +388,16 @@ background-size: 120%;
     height: 160px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
+}
 
+.equipoimg {
+			width: 100%;
+			height: 395px;
+			background-image: url(../imgs/equipo.jpg);
+			background-size: 120%;
+			margin-top: 30px;
+			background-position:  bottom;
+			background-repeat: no-repeat;
 
 
 
@@ -345,6 +409,10 @@ background-size: 120%;
 	font-size: 28px;
 	text-align: center;
 }
+
+
+
+
 
 .team {
 	padding: 30px;
@@ -362,6 +430,10 @@ background-size: 120%;
 }
 .mtop {
 	margin-top: 45px;
+	height: 300px;
+}
+.mtop p{
+margin-top: 25px;
 }
 
 .mtop img{
@@ -373,13 +445,22 @@ background-size: 120%;
 	padding-right: 10px;
 }
 
-
+.parrafoqs{
+	color: white;
+	width: 340px;
+	text-justify: left;
+	font-family: 'Open Sans', sans-serif;
+}
 .footbox{
 	padding: 15px;
 }
 
 .redes {
+	width: 90px;
+		height: 90px;
+		margin-left: 20px;
 
+		border-radius: 45px;
 }
 .redes:hover {
 	animation-name: btn;
@@ -402,10 +483,12 @@ background-size: 120%;
 }
 
 .btnbuscar {
-	width: 100%;
+	width: 60%;
 	height: 35px;
 	border-radius: 3px;
 	margin-top: 0px;
+	background-color: #111;
+	color: white;
 }
 
 .margenin{
@@ -417,7 +500,7 @@ margin-bottom: auto;
 	font-size: 12px;
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 20px;
- 
+
 }
 
 
@@ -429,6 +512,11 @@ margin-bottom: auto;
 }
 .whitetxt {
 	color: white;
+	text-align: center;
+}
+.whitetxt a{
+	color: white;
+	text-align: center;
 }
 .footmaster p h4{
 	color: white;
@@ -478,7 +566,7 @@ margin-bottom: auto;
 	word-spacing: 3px;
 }
 
-.gl1:hover{
+.parametros:hover {
 	animation-name: galefx;
 	animation-duration: 0.4s;
 	animation-iteration-count: 1;
@@ -487,50 +575,7 @@ margin-bottom: auto;
 
 }
 
-.gl2:hover{
-	animation-name: galefx;
-	animation-duration: 0.4s;
-	animation-iteration-count: 1;
-	animation-fill-mode:forwards;
-	animation-timing-function: ease-out;
 
-}
-
-.gl3:hover{
-	animation-name: galefx;
-	animation-duration: 0.4s;
-	animation-iteration-count: 1;
-	animation-fill-mode:forwards;
-	animation-timing-function: ease-out;
-
-}
-
-.gl4:hover{
-	animation-name: galefx;
-	animation-duration: 0.4s;
-	animation-iteration-count: 1;
-	animation-fill-mode:forwards;
-	animation-timing-function: ease-out;
-
-}
-
-.gl5:hover{
-	animation-name: galefx;
-	animation-duration: 0.4s;
-	animation-iteration-count: 1;
-	animation-fill-mode:forwards;
-	animation-timing-function: ease-out;
-
-}
-
-.gl6:hover{
-	animation-name: galefx;
-	animation-duration: 0.4s;
-	animation-iteration-count: 1;
-	animation-fill-mode:forwards;
-	animation-timing-function: ease-out;
-
-}
 
 @media screen and (max-width: 420px) {
 

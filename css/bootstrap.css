@@ -1233,8 +1233,7 @@ h1,
 .h1,
 h2,
 .h2,
-h3,
-.h3 {
+ {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -4011,12 +4010,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 30px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #fd6b02;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4546,12 +4545,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   font-family: 'Oswald', sans-serif;
-  color: #fd6b02;
+  color: #111;
   height: auto;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #fd6b02;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
