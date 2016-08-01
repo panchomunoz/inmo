@@ -1,5 +1,6 @@
 /** Hoja personalizada **/
-
+@import url(https://fonts.googleapis.com/css?family=Signika:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
 @keyframes cajamain{
 	0%{
 
@@ -61,19 +62,21 @@ font-family: 'Signika', sans-serif;
 	 font-size: 20pt;
 
   	text-align: left;
-		padding-left: 10px;
+
 		text-rendering: optimizeLegibility;
 
   	font-weight: 500;
   	line-height: 1.1;
 }
 h2, .h2 {
-	color: #111111;
-font-family: 'Signika', sans-serif;
-	font-weight: bold;
-	 font-size: 32pt;
+		color: rgba(235, 235, 235, 1);
+		font-family: 'Signika', sans-serif;
 
-  	text-align: center;
+	 	font-size: 24pt;
+
+  	text-shadow: 2px 2px 1px black;
+  	text-align: left;
+
 		text-rendering: optimizeLegibility;
 
   	font-weight: 500;
@@ -152,19 +155,36 @@ padding-left: 5px;
 
 }
 .backfoto {
-	background-image: url(../imgs/4puzzle.jpg);
-background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: bottom right;
-margin-bottom: 30px;
-	height: 500px;
-}
-.backfoto p{
-margin-left: 25px;
+	display: table;
+  width: 100%;
+  min-height: 500px;
+	padding-left: 40px;
+
+	margin-top: 10px;
+  color: black;
+  background: url(../imgs/4puzzle.jpg) no-repeat top center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	box-shadow: 0px 6px 34px -14px rgba(0,0,0,0.75);
+
 
 }
+.backfoto p{
+color: black;
+font-size: 12pt;
+font-weight: lighter;
+
+}
+.backfoto h2 {
+	font-size: 36px;
+	color: black;
+}
 .backfoto h3 {
-	font-size: 20px;
+	font-size: 16px;
+	color: black;
 }
 
 .propertycontact {
@@ -172,16 +192,16 @@ background-image: url(../imgs/works2.png);
 background-repeat: no-repeat;
 background-color: white;
 background-size: 100% ;
-padding-top: 30px;
+padding: 30px;
 height: 350px;
 background-position: center;
 
 }
 .propertycontact p {
-	width: 70%;
+
 	margin-left: auto;
 	margin-right: auto;
-	color: white;
+	color: black;
 font-family: 'Signika', sans-serif;
 	font-weight: bold;
 
@@ -208,19 +228,27 @@ background-size: 120%;
 	background-image: url(../imgs/fotoC.jpg);
 background-size: 120%;
 	background-repeat: no-repeat;
-	position: center;
+	background-position: top center;
 	height: 100%;
 }
 .botonslide {
-	width:100px;
+	width:110px;
 	z-index:10;
-	margin-top: 390px;
-	margin-left: 440px;
-	position:static
+	font-size: 9pt;
+	float: right;
+	margin-top: 90%;
+	margin-top: auto;
+	margin-left: auto;
+
+	background-color: black;
+	color: white;
 }
 .cajaprincipal {
 	height: 490px;
 	background-color: #ff6a00;
+}
+.cajaprincipal h2 {
+	margin-left: 40px;
 }
 
 .cajaprincipal:hover .sombra {
@@ -364,19 +392,28 @@ font-family: 'Signika', sans-serif;
 
 .motival {
 
+	display: table;
 	width: 100%;
-	height: 355px;
-	background-image: url(../imgs/peonreina.jpg);
-	background-size: 120%;
-	background-position:  bottom;
-	background-repeat: no-repeat;
-	position: relative;
+	min-height: 500px;
+	padding-left: 40px;
+	box-shadow: 0px 6px 34px -14px rgba(0,0,0,1);
+	margin-top: 0px;
+	color: black;
+	background: url(../imgs/peonreina.jpg) no-repeat top right scroll;
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 
 
 
 
-
-
+}
+.motival h3 {
+	font-family: 'Alegreya', serif;
+	font-size: 34pt;
+	color: #fff;
 }
 
 .frase {
@@ -389,16 +426,23 @@ font-family: 'Signika', sans-serif;
     height: 160px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 6px 34px -14px rgba(0,0,0,0.75);
 }
 
 .equipoimg {
-			width: 100%;
-			height: 395px;
-			background-image: url(../imgs/equipo.jpg);
-			background-size: 120%;
-			margin-top: 30px;
-			background-position:  bottom;
-			background-repeat: no-repeat;
+	display: table;
+
+	min-height: 500px;
+	padding-left: 40px;
+	box-shadow: 0px 6px 34px -14px rgba(0,0,0,1);
+	margin-top: 0px;
+	color: black;
+	background: url(../imgs/equipo.jpg) no-repeat top right scroll;
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 
 
 
@@ -432,15 +476,15 @@ font-family: 'Signika', sans-serif;
 
 }
 .mtop {
-	margin-top: 45px;
+	margin-top: 25px;
 	height: 300px;
 }
 .mtop p{
-margin-top: 25px;
+margin-top: -45px;
 }
 
 .mtop img{
-	margin-top: 22px;
+	margin-top: 12px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -450,11 +494,12 @@ margin-top: 25px;
 
 .parrafoqs{
 	color: white;
-	width: 340px;
+	width: 35%;
 	text-justify: left;
-font-family: 'Signika', sans-serif;
-	font-weight: bold;
-margin-left: 25px;
+	font-size: 12pt;
+	font-family: 'Signika', sans-serif;
+	font-weight: lighter;
+
 }
 .footbox{
 	padding: 15px;
@@ -480,7 +525,7 @@ margin-left: 25px;
 	    font-weight: 300;
 	    box-shadow: none;
 	    padding: 0.6875rem 1.0625rem;
-	    height: 3.5rem;
+	    height: 5.5rem;
 	    width: 100%;
 	    margin: 0;
 			margin-left: auto;
@@ -489,10 +534,12 @@ margin-left: 25px;
 
 .btnbuscar {
 	width: 60%;
-	height: 35px;
+	height: 5.5rem;
 	border-radius: 3px;
 	margin-top: 0px;
-	background-color: #111;
+	margin-bottom: 80px;
+	border: none;
+	background-color: green;
 	color: white;
 }
 
@@ -647,6 +694,11 @@ font-family: 'Signika', sans-serif;
 	background-image: url(../imgs/backlettermobile.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
+
+	}
+	.parrafoqs{
+
+		width: 85%;
 
 	}
 
