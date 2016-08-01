@@ -55,8 +55,8 @@
 de propiedades en la bafarra derecha**/
 
 h3,.h3 {
-	color: white;
-	font-family: 'Open sans', sans-serif;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
  	 text-shadow: 1px 1px 2px #333;
 	 font-size: 20pt;
 
@@ -69,8 +69,8 @@ h3,.h3 {
 }
 h2, .h2 {
 	color: #111111;
-	font-family: 'Open sans', sans-serif;
- 	 text-shadow: 1px 1px 2px #333;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
 	 font-size: 32pt;
 
   	text-align: center;
@@ -83,8 +83,8 @@ h4,.h4 {
 	color: black;
 
 	text-shadow:none;
-	font-family: 'Oswald', sans-serif;
-
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
   	text-indent: -1px;
  	 text-align: center;
 
@@ -182,8 +182,8 @@ background-position: center;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
-	font-family: 'Open sans', sans-serif;
-	font-weight: lighter;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
 
 	 text-shadow: 1px 1px 2px #333;
 	 font-size: 12pt;
@@ -304,7 +304,8 @@ background-size: 120%;
 	text-align: center;
 	font-size: 17px;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
 	padding-top: 7px;
 	cursor: pointer;
 
@@ -316,7 +317,7 @@ background-size: 120%;
 
 	top:200px;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Signika', sans-serif;
 	font-weight: lighter;
 	font-size: 12pt;
 	padding-left: 15px;
@@ -405,7 +406,9 @@ background-size: 120%;
 }
 
 .frase h3{
-	font-family: 'Cabin', sans-serif;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
+	font-weight: bold;
 	font-size: 28px;
 	text-align: center;
 }
@@ -417,7 +420,7 @@ background-size: 120%;
 .team {
 	padding: 30px;
 	margin: 20px;
-	border-bottom: 2px solid orange;
+
 }
 
 .team p {
@@ -449,7 +452,9 @@ margin-top: 25px;
 	color: white;
 	width: 340px;
 	text-justify: left;
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
+margin-left: 25px;
 }
 .footbox{
 	padding: 15px;
@@ -498,7 +503,8 @@ margin-bottom: auto;
 }
 .footbox p{
 	font-size: 12px;
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
 	margin-top: 20px;
 
 }
@@ -548,7 +554,8 @@ margin-bottom: auto;
 	margin-bottom: 50px;
 }
 .textoresena p {
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Signika', sans-serif;
+	font-weight: bold;
 	font-size: 14px;
 	text-align: center;
 	color: white;
@@ -611,7 +618,8 @@ margin-bottom: auto;
 
 
 	.textoresena p {
-	font-family: 'Open Sans', sans-serif;
+		font-family: 'Signika', sans-serif;
+		font-weight: bold;
 	font-size: 14px;
 	text-align: center;
 	color: white;
