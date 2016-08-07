@@ -1,6 +1,6 @@
 /** Hoja personalizada **/
 @import url(https://fonts.googleapis.com/css?family=Signika:400,300,600);
-@import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
 @keyframes cajamain{
 	0%{
 
@@ -57,42 +57,43 @@ de propiedades en la bafarra derecha**/
 
 h3,.h3 {
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
- 	 text-shadow: 1px 1px 2px #333;
+	
+ 	 
 	 font-size: 20pt;
 
   	text-align: left;
 
-		text-rendering: optimizeLegibility;
+	
 
-  	font-weight: 500;
+  	font-weight: normal;
   	line-height: 1.1;
 }
 h2, .h2 {
-		color: rgba(235, 235, 235, 1);
+		color: black;
 		font-family: 'Signika', sans-serif;
 
 	 	font-size: 24pt;
+	 	
 
-  	text-shadow: 2px 2px 1px black;
+  	
   	text-align: left;
 
 		text-rendering: optimizeLegibility;
 
-  	font-weight: 500;
+  	font-weight: 400;
   	line-height: 1.1;
 }
 h4,.h4 {
 	color: black;
 
-	text-shadow:none;
+	
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
+	
   	text-indent: -1px;
- 	 text-align: center;
 
 
-  font-weight: 700;
+ 	 font-size: 20pt;
+  font-weight: 400;
   line-height: 1.1;
 }
 .lefttext {
@@ -104,6 +105,7 @@ font-family: 'Signika', sans-serif;
 	border: 0;
 	height: 1px;
 	background: #333;
+
 
 	background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
@@ -139,11 +141,19 @@ padding-left: 5px;
 
 .norespeto {
 	position: absolute;
-	z-index: 2;
+	z-index: 7;
+	text-align: left;
 
 
 
 }
+.norespeto2 {
+	position: absolute;
+	z-index: 7;
+	text-align: left;
+	color: white;
+}
+
 .sombra {
 	width: 100%;
 	height: 490px;
@@ -160,7 +170,7 @@ padding-left: 5px;
   min-height: 500px;
 	padding-left: 40px;
 
-	margin-top: 10px;
+	
   color: black;
   background: url(../imgs/4puzzle.jpg) no-repeat top center scroll;
   background-color: black;
@@ -168,14 +178,15 @@ padding-left: 5px;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-	box-shadow: 0px 6px 34px -14px rgba(0,0,0,0.75);
+
 
 
 }
 .backfoto p{
 color: black;
-font-size: 12pt;
-font-weight: lighter;
+font-size: 10pt;
+font-weight: normal;
+
 
 }
 .backfoto h2 {
@@ -183,18 +194,23 @@ font-weight: lighter;
 	color: black;
 }
 .backfoto h3 {
-	font-size: 16px;
+	font-size: 18px;
 	color: black;
+	margin-bottom: 5px;
 }
 
 .propertycontact {
+	display: table;
+  width: 100%;
+  min-height: 200px;
+	padding-left: 40px;
 background-image: url(../imgs/works2.png);
 background-repeat: no-repeat;
 background-color: white;
 background-size: 100% ;
 padding: 30px;
-height: 350px;
-background-position: center;
+max-height: 850px;
+background-position:  center;
 
 }
 .propertycontact p {
@@ -203,9 +219,9 @@ background-position: center;
 	margin-right: auto;
 	color: black;
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 
-	 text-shadow: 1px 1px 2px #333;
+
 	 font-size: 12pt;
 
 }
@@ -232,23 +248,26 @@ background-size: 120%;
 	height: 100%;
 }
 .botonslide {
-	width:110px;
-	z-index:10;
-	font-size: 9pt;
-	float: right;
-	margin-top: 90%;
-	margin-top: auto;
-	margin-left: auto;
+	width:140px;
+	height: 45px;
+	z-index:7;
+	position: relative;
+	font-size: 12pt;
+	
+	float: left;
+	border: none;
+	margin-top: 9px;
+	border-radius: 9px;
 
-	background-color: black;
+	background-color: gray;
 	color: white;
 }
 .cajaprincipal {
 	height: 490px;
-	background-color: #ff6a00;
+	
 }
 .cajaprincipal h2 {
-	margin-left: 40px;
+	margin-left: 25px;
 }
 
 .cajaprincipal:hover .sombra {
@@ -259,6 +278,30 @@ background-size: 120%;
 	animation-timing-function: ease-out;
 	}
 
+
+.separator {
+	background-color: #E5E4E4;
+	height: 70px;
+	padding-top: 2px;
+}
+.separator h2{
+	margin-top: 14px;
+	text-shadow: none;
+	color: #111;
+	margin-left: 25px;
+}
+
+.separator2 {
+	background-color: #292728;
+	height: 70px;
+	padding-top: 2px;
+}
+.separator2 h2{
+	margin-top: 14px;
+	text-shadow: none;
+	color: white;
+	margin-left: 25px;
+}
 
 
 .gl1 {
@@ -331,9 +374,9 @@ background-size: 120%;
 	height: 40px;
 	text-align: center;
 	font-size: 17px;
-	font-weight: 700;
+	font-weight: normal;
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
+
 	padding-top: 7px;
 	cursor: pointer;
 
@@ -346,12 +389,12 @@ font-family: 'Signika', sans-serif;
 	top:200px;
 	color: white;
 font-family: 'Signika', sans-serif;
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 12pt;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 20px;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 
 
 }
@@ -397,7 +440,8 @@ font-family: 'Signika', sans-serif;
 	min-height: 500px;
 	padding-left: 40px;
 	box-shadow: 0px 6px 34px -14px rgba(0,0,0,1);
-	margin-top: 0px;
+	margin-top: 60px;
+
 	color: black;
 	background: url(../imgs/peonreina.jpg) no-repeat top right scroll;
 	background-color: black;
@@ -411,9 +455,10 @@ font-family: 'Signika', sans-serif;
 
 }
 .motival h3 {
-	font-family: 'Alegreya', serif;
-	font-size: 34pt;
+	font-family: 'PT Serif', serif;
+	font-size: 54pt;
 	color: #fff;
+	font-weight: lighter;
 }
 
 .frase {
@@ -434,7 +479,7 @@ font-family: 'Signika', sans-serif;
 
 	min-height: 500px;
 	padding-left: 40px;
-	box-shadow: 0px 6px 34px -14px rgba(0,0,0,1);
+
 	margin-top: 0px;
 	color: black;
 	background: url(../imgs/equipo.jpg) no-repeat top right scroll;
@@ -451,18 +496,26 @@ font-family: 'Signika', sans-serif;
 
 .frase h3{
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
-	font-weight: bold;
+	font-weight: 400;
+
 	font-size: 28px;
 	text-align: center;
 }
 
 
+.equipo1 {
+height: 300px;
 
+}
 
 
 .team {
-	padding: 30px;
+	padding: 10px;
+	
+
+}
+.team img {
+	margin-top: 20px;
 	margin: 20px;
 
 }
@@ -471,10 +524,32 @@ font-family: 'Signika', sans-serif;
 	margin-top: -5px;
 	text-align: justify;
 	word-spacing: -1px;
-	margin-left: 16px;
+	font-size: 12pt;
 	margin-right: 16px;
 
 }
+.team h4 {
+	padding: 25px;
+}
+.celdateam {
+	height: 270px;
+	margin-top: 20px;
+	padding: 20px;
+	
+	}
+
+.celdateam2 {
+	height: 270px;
+	margin-top: 70px;
+	padding: 20px;
+	
+	}
+.celdateam p{
+	padding: 25px;
+	margin-top: 50px;
+ 	
+}
+
 .mtop {
 	margin-top: 25px;
 	height: 300px;
@@ -494,11 +569,12 @@ margin-top: -45px;
 
 .parrafoqs{
 	color: white;
-	width: 35%;
-	text-justify: left;
-	font-size: 12pt;
+	width: 55%;
+	margin-top: 20px;
+	font-size: 15pt;
 	font-family: 'Signika', sans-serif;
-	font-weight: lighter;
+	font-variant: normal;
+	margin-left: -13px;
 
 }
 .footbox{
@@ -506,11 +582,15 @@ margin-top: -45px;
 }
 
 .redes {
-	width: 90px;
+	width: 40%;
 		height: 90px;
 		margin-left: 20px;
 
 		border-radius: 45px;
+}
+.redes img {
+	margin-left: 21%;
+
 }
 .redes:hover {
 	animation-name: btn;
@@ -551,7 +631,7 @@ margin-bottom: auto;
 .footbox p{
 	font-size: 12px;
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	margin-top: 20px;
 
 }
@@ -560,7 +640,8 @@ font-family: 'Signika', sans-serif;
 .footermaster {
 	background-color: #292728;
 	padding-top: 30px;
-	margin-top: -20px;
+	margin-top: 0px;
+	
 
 }
 .whitetxt {
@@ -602,7 +683,7 @@ font-family: 'Signika', sans-serif;
 }
 .textoresena p {
 font-family: 'Signika', sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 14px;
 	text-align: center;
 	color: white;
@@ -666,7 +747,7 @@ font-family: 'Signika', sans-serif;
 
 	.textoresena p {
 		font-family: 'Signika', sans-serif;
-		font-weight: bold;
+		font-weight: normal;
 	font-size: 14px;
 	text-align: center;
 	color: white;
@@ -696,10 +777,40 @@ font-family: 'Signika', sans-serif;
 	background-size: 100%;
 
 	}
-	.parrafoqs{
+	.motival h3 {
+	font-family: 'PT Serif', serif;
+	font-size: 36pt;
+	color: #fff;
+	font-weight: lighter;
+}
+	.propertycontact {
+
+	background-position: top center;
+	background-color: #CCC;
+
+}
+	.backfoto{  display: table;
+  width: 100%;
+  min-height: 500px;
+	padding-left: 40px;
+
+	
+  color: black;
+  background: url(../imgs/4puzzle.jpg) no-repeat top right ;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+	.parrafoqs {
 
 		width: 85%;
 
+	}
+	.botonslide {
+		display: none;
 	}
 
 	.textoresena p{
@@ -723,4 +834,7 @@ font-family: 'Signika', sans-serif;
 	float: left;
 	margin-left: -20px;
 }
+	.parametros {
+		opacity: 1;
+	}
 }

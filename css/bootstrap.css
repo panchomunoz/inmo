@@ -14,6 +14,9 @@ font-family: 'Signika', sans-serif;
 body {
   margin: 0;
 font-family: 'Signika', sans-serif;
+
+   
+
 }
 article,
 aside,
@@ -59,7 +62,7 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: lighter;
 }
 dfn {
   font-style: italic;
@@ -183,7 +186,7 @@ textarea {
   overflow: auto;
 }
 optgroup {
-  font-weight: bold;
+  
 }
 table {
   border-spacing: 0;
@@ -1196,12 +1199,12 @@ h6,
 .h5,
 .h6 {
 font-family: 'Signika', sans-serif;
-  text-shadow: 1px 1px 2px #333;
+ 
   text-indent: -1px;
   text-align: left;
 
 
-  font-weight: 700;
+  font-weight: lighter;
   line-height: 1.1;
   color: white;
 }
@@ -1254,7 +1257,7 @@ h2 .small,
 .h2 .small,
 h3 .small,
 .h3 .small {
-  font-size: 50%;
+
 }
 h4,
 .h4,
@@ -1306,8 +1309,8 @@ h6,
   font-size: 22px;
 font-family: 'Signika', sans-serif;
   color: white;
-  font-weight: lighter;
-  text-shadow: 2px 2px 1px black;
+  font-weight: normal;
+
   border-top: 5px;
   padding-left: 3px;
   border-right: 3px;
@@ -4554,8 +4557,8 @@ font-family: 'Signika', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #fd6b02;
-  background-color: transparent;
+  color: #555;
+    background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4888,7 +4891,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -4956,7 +4959,7 @@ a.label:focus {
   min-width: 10px;
   padding: 3px 7px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -5077,7 +5080,7 @@ a.thumbnail.active {
   color: inherit;
 }
 .alert .alert-link {
-  font-weight: bold;
+  font-weight: lighter;
 }
 .alert > p,
 .alert > ul {
@@ -6458,7 +6461,7 @@ font-family: 'Signika', sans-serif;
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #ff6900;
+  background-color: #111;
 }
 .carousel-caption {
   position: absolute;
