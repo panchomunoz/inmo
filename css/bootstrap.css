@@ -15,7 +15,7 @@ body {
   margin: 0;
 font-family: 'Signika', sans-serif;
 
-   
+
 
 }
 article,
@@ -186,7 +186,7 @@ textarea {
   overflow: auto;
 }
 optgroup {
-  
+
 }
 table {
   border-spacing: 0;
@@ -1199,9 +1199,9 @@ h6,
 .h5,
 .h6 {
 font-family: 'Signika', sans-serif;
- 
+
   text-indent: -1px;
-  text-align: left;
+  text-align: center;
 
 
   font-weight: lighter;

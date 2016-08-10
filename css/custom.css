@@ -57,13 +57,13 @@ de propiedades en la bafarra derecha**/
 
 h3,.h3 {
 font-family: 'Signika', sans-serif;
-	
- 	 
+
+
 	 font-size: 20pt;
 
   	text-align: left;
 
-	
+
 
   	font-weight: normal;
   	line-height: 1.1;
@@ -73,9 +73,9 @@ h2, .h2 {
 		font-family: 'Signika', sans-serif;
 
 	 	font-size: 24pt;
-	 	
 
-  	
+
+
   	text-align: left;
 
 		text-rendering: optimizeLegibility;
@@ -86,9 +86,9 @@ h2, .h2 {
 h4,.h4 {
 	color: black;
 
-	
+
 font-family: 'Signika', sans-serif;
-	
+
   	text-indent: -1px;
 
 
@@ -170,7 +170,7 @@ padding-left: 5px;
   min-height: 500px;
 	padding-left: 40px;
 
-	
+
   color: black;
   background: url(../imgs/4puzzle.jpg) no-repeat top center scroll;
   background-color: black;
@@ -182,21 +182,28 @@ padding-left: 5px;
 
 
 }
+
+#metodo {
+	margin-top:60px;
+}
 .backfoto p{
 color: black;
-font-size: 10pt;
+font-size: 12pt;
 font-weight: normal;
+text-align: center;
 
 
 }
 .backfoto h2 {
 	font-size: 36px;
 	color: black;
+
 }
 .backfoto h3 {
 	font-size: 18px;
 	color: black;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .propertycontact {
@@ -253,7 +260,7 @@ background-size: 120%;
 	z-index:7;
 	position: relative;
 	font-size: 12pt;
-	
+
 	float: left;
 	border: none;
 	margin-top: 9px;
@@ -264,7 +271,7 @@ background-size: 120%;
 }
 .cajaprincipal {
 	height: 490px;
-	
+
 }
 .cajaprincipal h2 {
 	margin-left: 25px;
@@ -400,7 +407,6 @@ font-family: 'Signika', sans-serif;
 }
 
 
-
 .damemas:hover {
 
 	animation-name: btn;
@@ -443,7 +449,9 @@ font-family: 'Signika', sans-serif;
 	margin-top: 60px;
 
 	color: black;
-	background: url(../imgs/peonreina.jpg) no-repeat top right scroll;
+	background: url(../imgs/peonreina.jpg) scroll;
+	background-repeat: no-repeat;
+	background-position: top right;;
 	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -456,7 +464,7 @@ font-family: 'Signika', sans-serif;
 }
 .motival h3 {
 	font-family: 'PT Serif', serif;
-	font-size: 54pt;
+	font-size: 46pt;
 	color: #fff;
 	font-weight: lighter;
 }
@@ -511,12 +519,14 @@ height: 300px;
 
 .team {
 	padding: 10px;
-	
+
 
 }
 .team img {
 	margin-top: 20px;
 	margin: 20px;
+	margin-left: 60px;
+	padding-left: 40px;
 
 }
 
@@ -535,19 +545,19 @@ height: 300px;
 	height: 270px;
 	margin-top: 20px;
 	padding: 20px;
-	
+
 	}
 
 .celdateam2 {
 	height: 270px;
 	margin-top: 70px;
 	padding: 20px;
-	
+
 	}
 .celdateam p{
 	padding: 25px;
 	margin-top: 50px;
- 	
+
 }
 
 .mtop {
@@ -574,7 +584,10 @@ margin-top: -45px;
 	font-size: 15pt;
 	font-family: 'Signika', sans-serif;
 	font-variant: normal;
-	margin-left: -13px;
+	margin-left: 23px;
+	padding-right: 23px;
+	text-align: justify;
+	    text-justify: center inter-word;
 
 }
 .footbox{
@@ -641,7 +654,7 @@ font-family: 'Signika', sans-serif;
 	background-color: #292728;
 	padding-top: 30px;
 	margin-top: 0px;
-	
+
 
 }
 .whitetxt {
@@ -744,7 +757,13 @@ font-family: 'Signika', sans-serif;
 
 @media screen and (max-width: 760px) {
 
+	.team img {
+		margin-top: 20px;
+		margin: 20px;
+		margin-left: 40px;
+		padding-left: 40px;
 
+	}
 	.textoresena p {
 		font-family: 'Signika', sans-serif;
 		font-weight: normal;
@@ -777,6 +796,14 @@ font-family: 'Signika', sans-serif;
 	background-size: 100%;
 
 	}
+
+	.celdateam p{
+		padding: 25px;
+		margin-top: -90px;
+		margin-left: 15px;
+
+	}
+
 	.motival h3 {
 	font-family: 'PT Serif', serif;
 	font-size: 36pt;
@@ -794,7 +821,7 @@ font-family: 'Signika', sans-serif;
   min-height: 500px;
 	padding-left: 40px;
 
-	
+
   color: black;
   background: url(../imgs/4puzzle.jpg) no-repeat top right ;
   background-color: black;
@@ -824,6 +851,12 @@ font-family: 'Signika', sans-serif;
 	padding-top: 90px;
 	line-height: 12px;
 
+
+		}
+		.team img {
+			margin-top: 20px;
+			margin: 20px;
+			padding-left: 20px;
 
 		}
 
